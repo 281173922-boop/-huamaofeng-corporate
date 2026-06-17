@@ -23,12 +23,19 @@ export default function TermsPage() {
             &ldquo;our&rdquo;). By using our services, you agree to these Terms.
           </p>
 
+          <p className="legal-text">
+            This website is used to present company information and support
+            business communication services. By using our services, users agree
+            that we may contact them regarding order-related communication
+            and support.
+          </p>
+
           <h2 className="legal-heading">1. Service Scope</h2>
           <p className="legal-text">
-            The Company provides customer communication and engagement services
-            to businesses. Our services include facilitating business-to-customer
-            messaging, customer re-engagement, and related communication
-            management solutions.
+            The Company provides customer communication services to businesses.
+            Our services include helping businesses stay in touch with their
+            customers, manage order follow-ups, and improve customer
+            satisfaction through simple communication workflows.
           </p>
 
           <h2 className="legal-heading">2. Eligibility</h2>
@@ -103,7 +110,7 @@ export default function TermsPage() {
 
           <h2 className="legal-heading">9. Changes to Terms</h2>
           <p className="legal-text">
-            We reserve the right to modify these Terms at any time. Changes
+            We reserve the right to update these terms when necessary. Changes
             will be effective upon posting to this page. Continued use of our
             services after changes constitutes acceptance of the modified Terms.
           </p>

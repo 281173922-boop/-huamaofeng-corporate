@@ -46,8 +46,8 @@ export default function PrivacyPage() {
               by our business clients for the purpose of customer outreach
             </li>
             <li>
-              Communication records and correspondence exchanged through
-              messaging platforms
+              Communication records and correspondence exchanged with
+              customers
             </li>
             <li>
               Basic business information about our clients and their customers
@@ -82,7 +82,7 @@ export default function PrivacyPage() {
             We do not share personal data with third parties except:
           </p>
           <ul className="list-disc pl-6 space-y-1 text-slate-600 mb-4">
-            <li>As necessary to provide our services (e.g., through messaging platforms)</li>
+            <li>As necessary to provide our services (e.g., through communication channels)</li>
             <li>When required by law or legal process</li>
             <li>With explicit consent from the data subject</li>
           </ul>

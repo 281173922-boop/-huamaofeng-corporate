@@ -89,8 +89,8 @@ export default function AboutPage() {
             <p>
               Our work is straightforward — we help organize customer information,
               assist with follow-up messages, and help businesses understand what
-              their customers are saying. We focus on practical support, not
-              automation or mass messaging.
+              their customers are saying. We focus on practical support
+              to help businesses serve their customers better.
             </p>
           </div>
         </div>
