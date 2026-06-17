@@ -10,13 +10,13 @@ export const metadata: Metadata = {
     template: "%s | Huamaofeng Trade",
   },
   description:
-    "Quanzhou Taiwan Investment Zone Huamaofeng Trade Co., Ltd. — A legally registered company providing customer communication and engagement services.",
-  keywords: ["Huamaofeng", "华茂丰", "泉州华茂丰", "customer communication"],
+    "Huamaofeng Trade — a small registered business in China helping online sellers with customer communication and post-purchase support.",
+  keywords: ["Huamaofeng", "华茂丰", "泉州华茂丰", "customer support"],
   robots: { index: true, follow: true },
   openGraph: {
     title: "Huamaofeng Trade Co., Ltd.",
     description:
-      "A legally registered Chinese company providing professional customer communication and engagement services.",
+      "A small registered business in China providing customer communication support for online sellers.",
     type: "website",
   },
 };

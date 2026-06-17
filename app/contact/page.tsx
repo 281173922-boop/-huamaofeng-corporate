@@ -51,16 +51,15 @@ export default function ContactPage() {
             </div>
           </div>
 
-          {/* Note */}
+          {/* Note — natural, not verification-focused */}
           <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 h-fit">
             <h2 className="text-lg font-semibold text-slate-900 mb-3">
-              Business Verification Purpose
+              Our Company Details
             </h2>
             <p className="text-sm text-slate-600 leading-relaxed">
-              This contact information is provided for business verification
-              purposes, including Meta Business Verification and WhatsApp
-              Business API application. All details match our official business
-              registration records.
+              All contact information listed here matches our official business
+              registration records. If you need to reach us, please email us
+              and we will get back to you as soon as possible.
             </p>
             <div className="mt-4 pt-4 border-t border-blue-200">
               <p className="text-xs text-slate-500">

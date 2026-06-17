@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about Quanzhou Taiwan Investment Zone Huamaofeng Trade Co., Ltd. — our company profile, registration, and business operations.",
+    "Learn more about Huamaofeng Trade — a small registered business in China providing customer communication support services.",
 };
 
 export default function AboutPage() {
@@ -16,7 +16,7 @@ export default function AboutPage() {
         <div className="mt-10 grid grid-cols-1 lg:grid-cols-2 gap-10">
           <div>
             <h2 className="text-xl font-semibold text-slate-900 mb-4">
-              Company Profile
+              Company Information
             </h2>
             <div className="space-y-4 text-slate-600 leading-relaxed">
               <p>
@@ -36,17 +36,12 @@ export default function AboutPage() {
                 <strong>Registered Address:</strong> Room 207, Building 2, No. 513 Luoyang
                 Avenue, Luoyang Town, Quanzhou Taiwan Investment Zone, Fujian Province, China
               </p>
-              <p>
-                <strong>Business Scope:</strong> International trade, apparel and
-                accessory trading, customer communication services, and business
-                consulting.
-              </p>
             </div>
           </div>
 
           <div className="bg-slate-50 rounded-xl border border-slate-200 p-6">
             <h2 className="text-xl font-semibold text-slate-900 mb-4">
-              Registration Details
+              Quick Facts
             </h2>
             <ul className="space-y-3 text-sm text-slate-600">
               <li className="flex items-start gap-2">
@@ -58,44 +53,44 @@ export default function AboutPage() {
               <li className="flex items-start gap-2">
                 <span className="text-green-600 mt-0.5">✓</span>
                 <span>
-                  <strong>Registration:</strong> Fujian Province, China
+                  <strong>Registered in:</strong> Fujian Province, China
                 </span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-green-600 mt-0.5">✓</span>
                 <span>
-                  <strong>Compliance:</strong> Full compliance with Chinese
-                  business and data protection laws
+                  <strong>Our Focus:</strong> Customer communication and
+                  post-purchase support for online sellers
                 </span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-green-600 mt-0.5">✓</span>
                 <span>
-                  <strong>Purpose:</strong> Customer communication and
-                  engagement services
+                  <strong>Compliance:</strong> We follow Chinese business
+                  regulations and data protection requirements
                 </span>
               </li>
             </ul>
           </div>
         </div>
 
-        {/* Statement */}
+        {/* Statement — natural tone */}
         <div className="mt-12 bg-white rounded-xl border border-slate-200 p-8">
           <h2 className="text-xl font-semibold text-slate-900 mb-4">
-            Our Commitment
+            A Bit About Our Work
           </h2>
           <div className="space-y-3 text-slate-600 leading-relaxed">
             <p>
-              We are committed to providing professional customer communication
-              services that comply with all applicable international and local
-              regulations. Our operations are transparent, and we maintain high
-              standards of data privacy and security.
+              We are a small team based in Quanzhou, Fujian, helping e-commerce
+              sellers manage their customer communication. Many online sellers
+              struggle to keep up with order follow-ups and customer inquiries,
+              and that&apos;s where we come in.
             </p>
             <p>
-              This corporate website serves as the official online presence of
-              our company for verification and compliance purposes. All
-              information provided here is accurate and matches our official
-              business registration records.
+              Our work is straightforward — we help organize customer information,
+              assist with follow-up messages, and help businesses understand what
+              their customers are saying. We focus on practical support, not
+              automation or mass messaging.
             </p>
           </div>
         </div>
