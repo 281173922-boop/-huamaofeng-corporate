@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Get in touch with Quanzhou Taiwan Investment Zone Huamaofeng Trade Co., Ltd. — official contact information.",
+    "Get in touch with Huamaofeng Trade — customer communication support for online sellers.",
 };
 
 export default function ContactPage() {
@@ -13,7 +13,7 @@ export default function ContactPage() {
         <h1 className="section-title">Contact Us</h1>
         <p className="section-subtitle">
           For business inquiries, please reach out to us through the
-          channels below.
+          channels below. We typically respond within 24–48 hours.
         </p>
 
         <div className="mt-10 grid grid-cols-1 lg:grid-cols-2 gap-10">
@@ -51,15 +51,15 @@ export default function ContactPage() {
             </div>
           </div>
 
-          {/* Note — natural, not verification-focused */}
+          {/* Note */}
           <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 h-fit">
             <h2 className="text-lg font-semibold text-slate-900 mb-3">
               Our Company Details
             </h2>
             <p className="text-sm text-slate-600 leading-relaxed">
               All contact information listed here matches our official business
-              registration records. If you need to reach us, please email us
-              and we will get back to you as soon as possible.
+              registration records. If you need to reach us, please send us an
+              email and we will get back to you within 24–48 hours.
             </p>
             <div className="mt-4 pt-4 border-t border-blue-200">
               <p className="text-xs text-slate-500">

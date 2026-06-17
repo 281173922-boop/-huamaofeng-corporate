@@ -26,14 +26,14 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Business Scope — one sentence, no cards */}
+      {/* What we actually do */}
       <section className="py-16 bg-slate-50 border-y border-slate-200">
         <div className="page-container">
-          <h2 className="section-title">What We Do</h2>
+          <h2 className="section-title">What We Actually Do</h2>
           <p className="mt-6 text-lg text-slate-500 leading-relaxed max-w-4xl">
-            We help small online businesses stay in touch with their customers, manage
-            order follow-ups, and improve customer retention through simple messaging
-            and support services.
+            We help online businesses manage daily customer communication and support
+            operations. Our focus is not advertising — it is communication efficiency
+            and customer response handling.
           </p>
         </div>
       </section>
@@ -49,27 +49,27 @@ export default function HomePage() {
             {[
               {
                 step: "1",
-                title: "Share Information",
+                title: "Receive Inquiries",
                 description:
-                  "Businesses share customer order information with us.",
+                  "Receive customer inquiries from businesses we work with.",
               },
               {
                 step: "2",
-                title: "Organize Records",
+                title: "Organize Flow",
                 description:
-                  "We organize and manage customer records.",
+                  "Organize communication flow and prioritize responses.",
               },
               {
                 step: "3",
-                title: "Customer Follow-ups",
+                title: "Order Messages",
                 description:
-                  "We assist in customer communication and follow-ups.",
+                  "Assist with order-related messages and follow-ups.",
               },
               {
                 step: "4",
-                title: "Feedback",
+                title: "After-Sales Support",
                 description:
-                  "We help businesses understand customer responses and feedback.",
+                  "Support after-sales communication tasks and feedback.",
               },
             ].map((item, i) => (
               <div
@@ -91,7 +91,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Statement — real small business tone */}
+      {/* About Our Business */}
       <section className="py-16 bg-slate-50 border-y border-slate-200">
         <div className="page-container">
           <div className="bg-white rounded-xl border border-slate-200 p-8 sm:p-10">

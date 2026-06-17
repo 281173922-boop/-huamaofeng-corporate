@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn more about Huamaofeng Trade — a small registered business in China providing customer communication support services.",
+    "Learn more about Huamaofeng Trade — a small operations team in China providing customer communication support for online sellers.",
 };
 
 export default function AboutPage() {
@@ -59,8 +59,8 @@ export default function AboutPage() {
               <li className="flex items-start gap-2">
                 <span className="text-green-600 mt-0.5">✓</span>
                 <span>
-                  <strong>Our Focus:</strong> Customer communication and
-                  post-purchase support for online sellers
+                  <strong>Our Focus:</strong> Customer communication support
+                  and e-commerce assistance
                 </span>
               </li>
               <li className="flex items-start gap-2">
@@ -74,23 +74,25 @@ export default function AboutPage() {
           </div>
         </div>
 
-        {/* Statement — natural tone */}
+        {/* Our Team section */}
         <div className="mt-12 bg-white rounded-xl border border-slate-200 p-8">
           <h2 className="text-xl font-semibold text-slate-900 mb-4">
-            A Bit About Our Work
+            Our Operations Team
           </h2>
           <div className="space-y-3 text-slate-600 leading-relaxed">
             <p>
-              We are a small team based in Quanzhou, Fujian, helping e-commerce
-              sellers manage their customer communication. Many online sellers
-              struggle to keep up with order follow-ups and customer inquiries,
-              and that&apos;s where we come in.
+              We are a small operations team based in China focused on supporting
+              online businesses with customer communication and order coordination.
             </p>
             <p>
-              Our work is straightforward — we help organize customer information,
-              assist with follow-up messages, and help businesses understand what
-              their customers are saying. We focus on practical support
-              to help businesses serve their customers better.
+              Our daily work includes handling customer messages, assisting with
+              follow-ups, and helping online sellers manage communication workflows
+              more efficiently.
+            </p>
+            <p>
+              We work with international e-commerce sellers and focus on improving
+              response speed and customer experience through structured communication
+              support.
             </p>
           </div>
         </div>
