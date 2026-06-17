@@ -32,7 +32,7 @@ export default function PrivacyPage() {
             Avenue, Luoyang Town, Quanzhou Taiwan Investment Zone, Fujian
             Province, China
             <br />
-            <strong>Email:</strong> To be confirmed
+            <strong>Email:</strong> minghangwu979@gmail.com
           </p>
 
           <h2 className="legal-heading">2. What Data We Collect</h2>

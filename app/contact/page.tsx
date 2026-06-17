@@ -44,7 +44,7 @@ export default function ContactPage() {
                     Email:
                   </span>
                   <p className="text-slate-500">
-                    To be confirmed — will be updated once registered.
+                    minghangwu979@gmail.com
                   </p>
                 </div>
               </div>
